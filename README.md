@@ -1,4 +1,5 @@
-Open Images is a dataset of ~9M images annotated with image-level labels, object bounding boxes, object segmentation masks, visual relationships, and localized narratives. Download Your own dataset by entering the given commands in CMD or Anaconda Prompt
+Open Images is a dataset of ~9M images annotated with image-level labels, object bounding boxes, object segmentation masks, visual relationships, and localized narratives. 
+# 1.0 Download Your own dataset by entering the given commands in CMD or Anaconda Prompt
 
 Step1)-- Check for your convinient dataset on https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F044r5d
 
@@ -23,24 +24,13 @@ Step10)-- Run python "convert_annotations.py"
 Your CUSTOM YOLO DATASET IS READY
 
 Refered from the video on Youtube Reference: https://www.youtube.com/watch?v=_4A9inxGqRM
-# 5.0 Community Contributions
+# 2.0 Community Contributions
 - [Denis Zuenko](https://github.com/zuenko) has added multithreading to the ToolKit and is currently working on the generalization and speeding up process of the labels creation
 - [Skylion007](https://github.com/Skylion007) has improved labels creation reducing the runtime from O(nm) to O(n). That massively speeds up label generation
 - [Alex March](https://github.com/hosaka) has added the limit option to the ToolKit in order to download only a maximum number of images of a certain class
 - [Michael Baroody](https://github.com/mbaroody) has fixed the toolkit's visualizer for multiword classes
 
-# Citation
-Use this bibtex if you want to cite this repository:
-```
-@misc{OIDv4_ToolKit,
-  title={Toolkit to download and visualize single or multiple classes from the huge Open Images v4 dataset},
-  author={Vittorio, Angelo},
-  year={2018},
-  publisher={Github},
-  journal={GitHub repository},
-  howpublished={\url{https://github.com/EscVM/OIDv4_ToolKit}},
-}
-```
+
 
 # Reference
 "[We don't need no bounding-boxes: Training object class detectors using only human verification](https://arxiv.org/abs/1602.08405)"Papadopolous et al., CVPR 2016.
