@@ -24,14 +24,6 @@ Step10)-- Run python "convert_annotations.py"
 Your CUSTOM YOLO DATASET IS READY
 
 
-# 2.0 Community Contributions
-- [Denis Zuenko](https://github.com/zuenko) has added multithreading to the ToolKit and is currently working on the generalization and speeding up process of the labels creation
-- [Skylion007](https://github.com/Skylion007) has improved labels creation reducing the runtime from O(nm) to O(n). That massively speeds up label generation
-- [Alex March](https://github.com/hosaka) has added the limit option to the ToolKit in order to download only a maximum number of images of a certain class
-- [Michael Baroody](https://github.com/mbaroody) has fixed the toolkit's visualizer for multiword classes
-
-
-
 # Reference
 "[We don't need no bounding-boxes: Training object class detectors using only human verification](https://arxiv.org/abs/1602.08405)"Papadopolous et al., CVPR 2016.
 
