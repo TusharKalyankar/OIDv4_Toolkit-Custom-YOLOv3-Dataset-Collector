@@ -9,6 +9,8 @@ Step3)-- Go to--> Options --> Deselect-- Display Boxes from all Catagory
 
 Step4)-- Make Sure to input the same class you Searched after "--classes" in the COMMAND BELOW
 
+      -- There is e.g. in COOMAND BELOW for class:  "Frying Pan" and "Refrigerator"
+
 Step5)-- Mention the command --limit and the number of images for each class
 
 Step6)-- Modify Below command accordingly and Run in the directory of "OIDV4_Toolkit" where "main.py" is present
@@ -16,7 +18,7 @@ Step6)-- Modify Below command accordingly and Run in the directory of "OIDV4_Too
 Step7)-- Type "Y" If asked for the permission 
 
 Run the following command
-"python main.py downloader --classes Frying_Pan Refrigerator --type_csv train --limit 200 --multiclasses 1 "
+       "python main.py downloader --classes Frying_Pan Refrigerator --type_csv train --limit 200 --multiclasses 1 "
 
 Step8)-- After the download your dataset of Yolo wiil be present in OIDv4_Toolkit-Custom-Dataset-Collector-->OID-->Dataset-->train
 
