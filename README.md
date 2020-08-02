@@ -13,7 +13,10 @@ Step5)-- Mention the command --limit and the number of images for each class
 
 Step6)-- Modify Below command accordingly and Run in the directory of "OIDV4_Toolkit" where "main.py" is present
 
-Step7)-- Type "Y" If asked for the permission "python main.py downloader --classes Frying_Pan Refrigerator --type_csv train --limit 200 "
+Step7)-- Type "Y" If asked for the permission 
+
+Run the following command
+"python main.py downloader --classes Frying_Pan Refrigerator --type_csv train --limit 200 --multiclasses 1 "
 
 Step8)-- After the download your dataset of Yolo wiil be present in OIDv4_Toolkit-Custom-Dataset-Collector-->OID-->Dataset-->train
 
