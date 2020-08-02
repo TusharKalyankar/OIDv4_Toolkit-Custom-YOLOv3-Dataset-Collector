@@ -18,7 +18,8 @@ Step6)-- Modify Below command accordingly and Run in the directory of "OIDV4_Too
 Step7)-- Type "Y" If asked for the permission 
 
 Run the following command
-       "python main.py downloader --classes Frying_Pan Refrigerator --type_csv train --limit 200 --multiclasses 1 "
+
+      -- python main.py downloader --classes Frying_Pan Refrigerator --type_csv train --limit 200 --multiclasses 1 
 
 Step8)-- After the download your dataset of Yolo wiil be present in OIDv4_Toolkit-Custom-Dataset-Collector-->OID-->Dataset-->train
 
